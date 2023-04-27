@@ -4,6 +4,7 @@
 
 :root {
     --emphasized: #D9E5E8;
+    --fill: #E6EEF0BA;
 }
 
 h1, .navbar-brand {
@@ -20,7 +21,7 @@ h2, .nav-link {
     color: #0E4969;
 }
 
-h3 {
+h3, .link {
     font-family: 'Proza Libre';
     font-size: 20px;
     font-weight: 600;
