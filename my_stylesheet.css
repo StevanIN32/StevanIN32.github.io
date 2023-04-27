@@ -1,16 +1,17 @@
 @import url(https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Proza+Libre:wght@400;600&family=Puritan:wght@700&display=swap');
 
+
 :root {
     --emphasized: #D9E5E8;
 }
 
-h1, .navCompany {
+h1, .navbar-brand {
     font-family: 'Montserrat';
     font-size: 39px;
 }
 
-h2, .navLink {
+h2, .nav-link {
     font-family: 'Puritan';
     font-size: 31px;
 }
