@@ -26,6 +26,16 @@ h2, .nav-link {
     background-color: #0E4969;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
+
 h3, .link {
     font-family: 'Proza Libre';
     font-size: 20px;
