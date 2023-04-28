@@ -21,6 +21,10 @@ h2, .nav-link {
     color: #0E4969;
 }
 
+#footer *{
+    color:white !important;
+}
+
 h3, .link {
     font-family: 'Proza Libre';
     font-size: 20px;
