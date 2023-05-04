@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <head>
     <title>Ponuda</title>
+    <meta charset="utf8">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link href="my_stylesheet.css" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon_package/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon_package/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon_package/favicon-16x16.png">
+	<link rel="manifest" href="/favicon_package/site.webmanifest">
+	<link rel="mask-icon" href="/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-light bg-light navbar-expand-lg mb-0">
-        <a href="#"><img src="LOGO3.png" width="80" height="80" class="d-inline-block align-top mx-4"  alt=""></a>
-        <a class="navbar-brand mr-3" href="#" id="cyber">CyberWebb</a>
-        <a class="nav-link mx-4" href="ponuda.html">Ponuda</a>
+		<a href="#" ><img src="LOGO3.png" width="80" height="80" class="d-inline-block align-top mx-4"  alt=""></a>
+		<a class="navbar-brand" href="#">CyberWebb</a>
+        <a class="nav-link mx-4" href="ponuda.html" style="text-decoration: underline;">Ponuda</a>
         <a class="nav-link mx-4" href="#">Blog</a>
         <a class="nav-link mx-4" href="#">Kontakt</a>
     </nav>
     <hr class="mt-0" style="height: 5px; background-color: black;">
 
     <!-- Naslov -->
-    <div class="card m-4" style="background-color: var(--emphasized);">
-        <div class="card-body">
-            <h1>Najkvalitetniji hosting u Srbiji</h1>
-            <p class="mt-4 mb-0">Mi smo CyberWebb hosting provajder iz Srbije. Nudimo Vam usluge po svetskim standardima na domaćem tržištu. Naše usluge su prilagođene fizičkim i pravnim licima.</p>
-        </div>
-    </div>
+	<div class="container">
+	
+        <h1>Najkvalitetniji hosting u Srbiji</h1>
+        <p class="mt-4 mb-4">Mi smo CyberWebb hosting provajder iz Srbije. Nudimo Vam usluge po svetskim standardima na domaćem tržištu. Naše usluge su prilagođene fizičkim i pravnim licima.</p>
+	
+	</div>
 
     <!-- Ponuda -->
-    <div class="container-fluid" style="max-width: 95%;">
+    <div class="container">
         <div class="row d-flex align-items-stretch">
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3 mt-1">
                 <div class="card p-3 container-fluid" style="background-color: var(--emphasized); height: 100%;">
                     <h2>Business hosting</h2>
                     <hr>
@@ -42,7 +50,7 @@
                     <a class="link" href="business_hosting.html" style="color:black;">Opširnije</a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3 mt-1">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2 class="mt-0">Web hosting</h2>
                     <hr>
@@ -55,7 +63,7 @@
                     <a class="link mt-auto" href="web_hosting.html" style="color:black;">Opširnije</a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3 mt-1">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2 class="mt-0">VPS Server</h2>
                     <hr>
@@ -68,7 +76,7 @@
                     <a class="link mt-auto" href="#" style="color:black;">Opširnije</a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6 col-lg-3 mt-1">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2 class="mt-0">Dedicated server</h2>
                     <hr>
@@ -85,50 +93,44 @@
     </div>
 
     <!-- Red ispod ponude -->
-    <div class="container-fluid mt-4" style="max-width: 95%;">
+    <div class="container mt-4">
         <div class="row">
-            <div class="col-6">
-                <div class="card p3 container-fluid" style="background-color: var(--fill); height: 100%;">
+            <div class="col-sm-12 col-md-6">
+                <div class="p3 container">
                     <h2 class="p-2">Svi paketi obuhvataju servere koji koriste SSD diskove i besplatan SSL sertifikat</h2>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="card p3 container-fluid" style="background-color: var(--fill); height: 100%;">
+            <div class="col-sm-12 col-md-6">
+                <div class="p3 container">
                     <h2 class="p-2">Usluga registrovanja domena</h2>
-                    <a class="link mt-auto" href="#" style="color:black;">Cena i provera dostupnosti domena</a>
+                    <a class="link mt-auto p-2" href="#" style="color:black;">Cena i provera dostupnosti domena</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Migracija -->
-    <div class="card mt-4 mx-4" style="background-color: var(--fill);">
-        <div class="card-body">
-            <h2>Besplatna, brza i jednostavna migracija</h2>
-            <p class="mt-4 mb-0">Dovoljno je da kontaktirate naše operatere podrške i mi ćemo obaviti sva potrebna prebacivanja umesto Vas. Prebacićemo sve fajlove, baze podataka, email naloge kao i ostalo što poželite. Migracija se odvija brzo i vaš sajt ni u kom trenutku neće biti nedostupan.</p>
-        </div>
+    <div class="container mt-4">
+	    <h2>Besplatna, brza i jednostavna migracija</h2>
+	    <p class="mt-2 mb-0">Dovoljno je da kontaktirate naše operatere podrške i mi ćemo obaviti sva potrebna prebacivanja umesto Vas. Prebacićemo sve fajlove, baze podataka, email naloge kao i ostalo što poželite. Migracija se odvija brzo i vaš sajt ni u kom trenutku neće biti nedostupan.</p>
     </div>
 
     <!-- Tu za pitanja -->
-    <div class="card mt-4 mx-4" style="background-color: var(--fill);">
-        <div class="card-body">
-            <h2>Tu smo za svako pitanje</h2>
-            <p class="mt-4 mb-0">
-                Pozovite nas ako imate dilemu ili pitanje.
-                <br>Ponedeljak - Petak 09-17h
-                <br>+381601234567
-            </p>
-        </div>
-    </div>
+    <div class="container mt-4">
+        <h2>Tu smo za svako pitanje</h2>
+        <p class="mt-2 mb-0">
+            Pozovite nas ako imate dilemu ili pitanje.
+            <br>Ponedeljak - Petak 09-17h
+            <br>+381601234567
+        </p>
+</div>
 
     <!-- Najbolji izbor -->
-    <div class="card m-4" style="background-color: var(--fill);">
-        <div class="card-body">
-            <h2>Zašto smo mi najbolji izbor za Vas</h2>
-            <p class="mt-4 mb-0">Nudimo najbolja hosting rešenja po najpovoljnijim uslovima na teritoriji Srbije.<br>
-                Registracije domena su usklađene sa nabavnim cenama, tako da su troškovi Vašeg nastupa na internetu svedene na minimum.<br>
-                Naša hosting rešenja su stabilna i sigurna potpora za osvajanje internet tržišta. Uz našu podršku ste slobodni da se fokusirate na Vaše poslovne ciljeve.</p>
-        </div>
+    <div class="container mt-4">
+        <h2>Zašto smo mi najbolji izbor za Vas</h2>
+        <p class="mt-2 mb-0">Nudimo najbolja hosting rešenja po najpovoljnijim uslovima na teritoriji Srbije.<br>
+            Registracije domena su usklađene sa nabavnim cenama, tako da su troškovi Vašeg nastupa na internetu svedene na minimum.<br>
+            Naša hosting rešenja su stabilna i sigurna potpora za osvajanje internet tržišta. Uz našu podršku ste slobodni da se fokusirate na Vaše poslovne ciljeve.</p>
     </div>
     
     <!-- Footer -->
