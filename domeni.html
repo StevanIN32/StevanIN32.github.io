@@ -11,6 +11,7 @@
 	<link rel="mask-icon" href="/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- Navbar -->
@@ -41,10 +42,19 @@
             cenama, tako da su troškovi Vašeg nastupa na internetu svedeni na minimum.</p>
     </div>
 
+    <!-- Pretraga -->
+    <div class="container">
+        <div class="input-group input-group-lg">
+            <span class="input-group-text" id="inputGroup-sizing-lg">Potraži domen</span>
+            <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" id="filter" oninput="filter();">
+            <button class="btn btn-outline-primary" onclick="filter();" type="button">Potraži</button>
+            <button class="btn btn-outline-danger" onclick="reset();" type="button">Resetuj</button>
+        </div>
+    </div>
     <!-- Ponuda -->
     <div class="container">
         <div class="row d-flex align-items-stretch">
-            <div class="mt-1 col-sm-6 col-lg-4">
+            <div class="mt-1 col-sm-6 col-lg-4" id="com">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2>.com</h2>
                     <hr>
@@ -54,7 +64,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mt-1 col-sm-6 col-lg-4">
+            <div class="mt-1 col-sm-6 col-lg-4" id="net">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2>.net</h2>
                     <hr>
@@ -64,7 +74,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mt-1 col-sm-6 col-lg-4">
+            <div class="mt-1 col-sm-6 col-lg-4" id="info">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2>.info</h2>
                     <hr>
@@ -74,7 +84,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mt-1 col-sm-6 col-lg-4">
+            <div class="mt-1 col-sm-6 col-lg-4" id="rs">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2>.rs</h2>
                     <hr>
@@ -84,7 +94,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mt-1 col-sm-6 col-lg-4">
+            <div class="mt-1 col-sm-6 col-lg-4" id="cors">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2>.co.rs</h2>
                     <hr>
@@ -94,7 +104,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="mt-1 col-sm-6 col-lg-4">
+            <div class="mt-1 col-sm-6 col-lg-4" id="inrs">
                 <div class="card p-3 container-fluid" style="background-color: var(--fill); height: 100%;">
                     <h2>.in.rs</h2>
                     <hr>
