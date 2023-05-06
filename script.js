@@ -8,6 +8,7 @@ function reset() {
 
 function filter() {
     let filterString = document.getElementById("filter").value;
+    filterString = filterString.replace(/\./g, "")
     let filterRegex = new RegExp(`^.*${filterString}.*$`);
     for (const domen in domeni) {
         document.getElementById(domeni[domen]).hidden = !filterRegex.test(domeni[domen]);

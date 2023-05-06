@@ -9,18 +9,18 @@
 
 h1, .navbar-brand {
     font-family: 'Montserrat';
-    font-size: 2.5em;
+    font-size: 2.25em;
 }
 
 h2, .nav-link {
     font-family: 'Noto sans';
-    font-size: 1.8em;
+    font-size: 1.62em;
     font-weight: 500;
 }
 
 .nav-link {
     color: #0E4969;
-    font-size: 1.3em;
+    font-size: 1.17em;
 }
 
 #footer *{
@@ -40,18 +40,18 @@ footer{
 
 h3, .link {
     font-family: 'Proza Libre';
-    font-size: 1.4em;
+    font-size: 1.29em;
     font-weight: 300;
 }
 
 p {
     font-family: 'Proza Libre';
-    font-size: 1.3em;
+    font-size: 1.17em;
     font-weight: 400;
 }
 
 li {
     font-family: 'Noto sans';
-    font-size: 1.6em;
+    font-size: 1.44em;
     font-weight: 400;
 }
